@@ -13,7 +13,6 @@ class QuoteCard extends React.Component {
         super(props);
         this.state = {
             card: defaultCard,
-            loading : false,
         }
     }
 
@@ -48,7 +47,6 @@ class QuoteCard extends React.Component {
             </div>
         )
     }
-
 }
 
 export default QuoteCard;
