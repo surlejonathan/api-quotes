@@ -19,7 +19,6 @@ class QuoteCard extends React.Component {
     }
 
     changeQuote = () => {
-
         axios.get('https://thesimpsonsquoteapi.glitch.me/quotes')
             .then(responses => responses.data)
             .then(data => this.setState({
