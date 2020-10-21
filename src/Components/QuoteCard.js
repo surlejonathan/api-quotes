@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import '../style/QuoteCard.css';
 import axios from 'axios';
 
@@ -52,9 +51,4 @@ class QuoteCard extends React.Component {
 
 }
 
-
-QuoteCard.propTypes = {
-    character: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-};
 export default QuoteCard;
