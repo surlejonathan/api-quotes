@@ -51,3 +51,10 @@
   button:hover{
     opacity: .8;
   }
+
+  .no-data {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
